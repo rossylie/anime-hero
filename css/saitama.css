@@ -5,6 +5,7 @@ body {
 	line-height: 30px;
 }
 
+/*Header styles*/
 header {
 	background-color: #F3CB18;
 	text-align: center;
@@ -13,12 +14,13 @@ header {
 }
 
 h1, h2 {
-	font-family: 'Bangers', cursive;
+	font-family: 'Bebas Neue', cursive;
 }
 
 header h1 {
 	color: white;
-	font-size: 80px
+	font-size: 150px;
+	margin-top: 80px;
 }
 
 header img {
@@ -27,6 +29,7 @@ header img {
     border: 20px solid #E5383B;
 }
 
+/*Main styles*/
 main {
 	max-width: 800px;
 	margin: 0 auto;
@@ -52,6 +55,14 @@ a:hover {
 	background-color: rebeccapurple;
 }
 
+p.caption{
+	font-size: 16px;
+	color: #999999;
+	font-style: italic;
+	margin-top: 0;
+}
+
+/*Footer styles*/
 footer {
 	background-color: #F3CB18;
 	text-align: center;
@@ -72,8 +83,3 @@ footer a:hover {
 	background-color: transparent;
 }
 
-p.caption{
-	color: #999999;
-	font-style: italic;
-	margin-top: 0;
-}
